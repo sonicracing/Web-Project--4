@@ -7,15 +7,31 @@
   <title>Residential</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .parent {
+    #parent {
       display: flex;
       justify-content: center;
     }
 
-    .main-p {
-      text-align: center;
+    #main-p {
+      border-radius: 25px;
+      border: black solid 2px;
       padding: 20px;
-      background-color: #6461a0;
+      background-color: #8A86DB;
+      margin-right: 30px;
+      width: 800px;
+      height: 300px;
+      font-size: medium;
+    }
+
+    #header {
+      text-align: center;
+    }
+
+    #house-image {
+      width: 300px;
+      height: 350px;
+      border-radius: 25px;
+      border: 2px solid;
     }
   </style>
 </head>
@@ -27,12 +43,12 @@
     <a href="residential.html">Residential</a>
     <a href="contact.html">Contact Us</a>
   </nav>
-  <h1>
+  <h1 id="header">
     <b>Objectives</b>
   </h1>
   </p>
-  <div class="parent">
-    <ol class="main-p">
+  <div id="parent">
+    <ol id="main-p">
       <li>
         <b>Open Space Connectivity:</b> To provide an interconnected system of parks and open spaces for a
         variety of year-round active and passive recreational opportunities, leisure pursuits, and cultural and
@@ -69,6 +85,7 @@
         our northern climate (all seasons), recognizing current and future realities of climate change
       </li>
     </ol>
+    <img id="house-image" src="images/house.PNG" alt="sick ass house">
   </div>
 </body>
 
