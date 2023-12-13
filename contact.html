@@ -4,11 +4,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact</title>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: 20px auto;
+      /* Adjusted margin */
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-right: 100px;
+    }
+
+    form {
+      display: grid;
+      grid-gap: 10px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    section {
+      color: #454547;
+      font-family: 'Georgia', serif;
+      font-weight: bold;
+      font-size: 25px;
+    }
+  </style>
 </head>
 
 <body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="information.html">Cultural and Education</a>
+    <a href="residential.html">Residential</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  <section class="contact-form" style="margin-bottom: 150px;">
+    <form action="index.html" method="get">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
 
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
 </body>
 
 </html>

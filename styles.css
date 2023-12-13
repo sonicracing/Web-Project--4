@@ -8,10 +8,9 @@ nav a {
 /*nav link hover animation*/
 @keyframes hoverani {
   0% {
-    background-color: #6461a0;
   }
   100% {
-    color: #c5d8d1;
+    color: red;
   }
 }
 nav a:hover {
@@ -22,7 +21,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #6461a0;
+  background-color: #bfbbde;
   padding: 5px;
 }
 
