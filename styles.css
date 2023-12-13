@@ -4,6 +4,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   margin-top: 10px;
+  justify-content: flex-end;
 }
 
 /*nav link hover animation*/
@@ -52,6 +53,7 @@ nav {
 .naawi-oodena {
   font-size: 40px;
   margin-top: 5px;
+  justify-content: flex-start;
 }
 body {
   margin: 0px;

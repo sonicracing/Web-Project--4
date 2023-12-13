@@ -7,7 +7,7 @@
   <title>Residential</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    #parent {
+    .parent {
       display: flex;
       justify-content: center;
     }
@@ -25,7 +25,7 @@
       font-family: Arial, Helvetica, sans-serif;
     }
 
-    #residential-p {
+    .residential-p {
       border-radius: 25px;
       border: black solid 2px;
       padding: 20px;
@@ -57,6 +57,13 @@
       width: 25%;
       margin-right: 5%;
     }
+
+    .house-image {
+      border-radius: 25px;
+      border: 2px solid;
+      width: 25%;
+      margin-right: 5%;
+    }
   </style>
 </head>
 
@@ -70,14 +77,43 @@
   </nav>
 
   <h1 class="header">
-    Lower Residential
+    Medium Density Residential
   </h1>
+  <div class="parent">
+    <p class="residential-p"><b>Objectives</b><br>
+      1. <b>Diverse Housing Options:</b> To provide a diverse mix of housing, including variation in unit sizes,
+      tenure mix, integration of accessible and age-friendly housing, and affordable housing options to
+      accommodate a range of household income levels;<br>
+      2. <b>Quality Design:</b> To encourage high quality architecture and urban design to ensure new
+      development contributes to the creation of a strong community identity;<br>
+      3. <b>Pedestrian Permeability:</b> To ensure the design of all buildings reinforces the relationship between
+      the buildings and the street by maintaining a high degree of permeability and activation at the
+      ground level; and<br>
+      4. <b>Visual Quality:</b> To minimize the visual impact of parking, service areas, and similar elements on the
+      public realm</p>
+    <img class="house-image" src="images/apartment.PNG">
+  </div>
+
+  <h1 class="header">
+    Lower Density Residential
+  </h1>
+  <div class="parent">
+    <img class="house-image" src="images/house.PNG">
+    <p class="residential-p"><b>Objectives</b><br>
+      1. <b>Diverse Housing Options:</b> To provide a diverse mix of housing, including variation in unit sizes,
+      tenure mix, integration of accessible and age-friendly housing, and affordable housing options to
+      accommodate a range of household income levels;<br>
+      2. <b>Quality Design:</b> To encourage high quality architecture and urban design to ensure new
+      development contributes to the creation of a strong community identity; and<br>
+      3. <b>Visual Quality:</b> To minimize the visual impact of parking, service areas, and similar elements on the
+      public realm</p>
+  </div>
 
   <h1 class="header">
     Community Spaces
   </h1>
 
-  <div id="parent">
+  <div class="parent">
     <ol id="main-p">
       <p><b>Objectives</b></p>
       <li>
@@ -116,41 +152,7 @@
         our northern climate (all seasons), recognizing current and future realities of climate change
       </li>
     </ol>
-    <img id="skateboard-image" src="images/skateboard.PNG" alt="sick ass house">
-  </div>
-  <div id="parent">
-    <img id="hockey-image" src="images/hockey.PNG">
-    <p id="residential-p"><b>POLICY DIRECTIONS</b><br>
-      1. Community Spaces should be designed to be beautiful,
-      functional, and sustainable, in accordance with this Plan’s
-      Landscape Guiding Principles (see Section 6.1).<br>
-      2. In addition to lands designated as Community Spaces on
-      Figure 5.1, development sites throughout the subject lands
-      should contribute to the overall open space system by
-      creating smaller publicly accessible urban plazas, mews,
-      and courtyards throughout the development.<br>
-      3. Community Spaces should be designed as flexible spaces
-      to accommodate a variety of active and passive recreation
-      activities, programming, and events that can cater to
-      changing community needs over time.<br>
-      4. Community Spaces should be designed for use during
-      all seasons, with shelter from winds, places to enjoy sun
-      exposure or shade, and lighting for safe evening use.<br>
-      5. Community Spaces, and the public realm in general, should
-      be designed for universal accessibility.<br>
-      6. Community Spaces should implement Low Impact
-      Development strategies, emphasizing conservation and use
-      of on-site natural features to filter, store, and detain runoff
-      water.<br>
-      7. Community Spaces should incorporate pathways which will
-      work in a cohesive manner as part of the pedestrian and
-      cycling network.<br>
-      8. Public art, created primarily by First Nations artists, should
-      be an integrated and defining element of all Community
-      Spaces – and the public realm in general – to create a
-      sense of place and strengthen cultural identity.<br>
-      9. Elements commemorating the site’s military heritage should
-      be integrated into the design of Community Spaces.</p>
+    <img id="hockey-image" src="images/hockey.PNG" alt="someone in skates playing hockey in a rink">
   </div>
 </body>
 
