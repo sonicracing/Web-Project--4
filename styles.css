@@ -3,6 +3,7 @@ nav a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 /*nav link hover animation*/
@@ -22,8 +23,9 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   background-color: #bfbbde;
-  padding: 5px;
   border-bottom: 2px solid black;
+  position: sticky;
+  top: 0;
 }
 
 /*entrance animation for big text*/
@@ -46,6 +48,10 @@ nav {
   color: white;
   animation-name: entranceani;
   animation-duration: 2s;
+}
+.naawi-oodena {
+  font-size: 40px;
+  margin-top: 5px;
 }
 body {
   margin: 0px;
