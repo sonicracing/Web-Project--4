@@ -1,6 +1,10 @@
 * {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.parent {
+  display: flex;
+  justify-content: center;
+}
 nav a {
   font-size: xx-large;
   color: rgb(0, 0, 0);
@@ -9,7 +13,10 @@ nav a {
   margin-top: 10px;
   justify-content: flex-end;
 }
-
+.header {
+  text-align: center;
+  font-weight: bold;
+}
 /*nav link hover animation*/
 @keyframes hoverani {
   0% {
