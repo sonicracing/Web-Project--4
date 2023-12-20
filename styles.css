@@ -10,24 +10,17 @@ nav a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bold;
-  margin-top: 10px;
+  margin: 20px;
   justify-content: flex-end;
+  padding: 0px 5px 0px 5px;
 }
 .header {
   text-align: center;
   font-weight: bold;
 }
-/*nav link hover animation*/
-@keyframes hoverani {
-  0% {
-  }
-  100% {
-    color: red;
-  }
-}
 nav a:hover {
-  animation-name: hoverani;
-  animation-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.164);
+  border-radius: 18px;
 }
 nav {
   display: flex;
@@ -62,7 +55,7 @@ nav {
 }
 .naawi-oodena {
   font-size: 40px;
-  margin-top: 5px;
+  margin-top: 15px;
   justify-content: flex-start;
 }
 body {
